@@ -6,7 +6,7 @@ jobs:
   build:
     # Define the Docker image to use for the job.
     docker:
-      - image: circleci/openjdk:16-jdk
+      - image: cimg/openjdk:16-jdk
     # Define the steps to run in the job.
     steps:
       - checkout
