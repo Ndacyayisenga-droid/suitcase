@@ -6,7 +6,7 @@ jobs:
   build:
     # Define the Docker image to use for the job.
     docker:
-      - image: cimg/openjdk:19.0.2
+      - image: cimg/openjdk:latest
     # Define the steps to run in the job.
     steps:
       - checkout
