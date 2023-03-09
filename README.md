@@ -9,12 +9,12 @@ The developer [wiki](https://github.com/odk-x/tool-suite-X/wiki) (including rele
 1. Install Maven and Ant onto your system.
 (We recommend using [Maven 3.8.6](https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.6/) if you are on Windows, and downloading the binary directly. Maven 3.9.0 currently has some issues that would cause the build to fail)
 
-2. Run `ant` in the dependencies folder. 
+2. Run `ant` in the dependencies folder.
 3. From the root directory (with the pom.xml), run: *mvn clean package*
 
-A new folder, target, will be created with the resulting jar file. 
+A new folder, target, will be created with the resulting jar file.
 
-By default, the pom.xml skips the tests.  
+By default, the pom.xml skips the tests.
 
 The tests can be run by passing the test arguments via the command line.  Replace the values in the example below with the appropriate server url, app id, etc. :
 
